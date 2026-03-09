@@ -34,8 +34,16 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
-    {"id":{"name":"testobject","path":"objects/testobject/testobject.yy",},},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
+    {"id":{"name":"sPlaceholder4","path":"sprites/sPlaceholder4/sPlaceholder4.yy",},},
+    {"id":{"name":"sPlaceholder2","path":"sprites/sPlaceholder2/sPlaceholder2.yy",},},
+    {"id":{"name":"sPlaceholder1","path":"sprites/sPlaceholder1/sPlaceholder1.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
+    {"id":{"name":"oBattle","path":"objects/oBattle/oBattle.yy",},},
+    {"id":{"name":"oEnemyOverworld","path":"objects/oEnemyOverworld/oEnemyOverworld.yy",},},
+    {"id":{"name":"oPlayerOverworld","path":"objects/oPlayerOverworld/oPlayerOverworld.yy",},},
+    {"id":{"name":"gameData","path":"scripts/gameData/gameData.yy",},},
+    {"id":{"name":"sPlaceholder3","path":"sprites/sPlaceholder3/sPlaceholder3.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = x + 1
 
+draw_sprite(battleBackground,0,x,y)
 
 
