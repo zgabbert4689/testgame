@@ -5,3 +5,5 @@ follow = oPlayerOverworld
 
 xTo = x
 yTo = y
+
+randomize();
