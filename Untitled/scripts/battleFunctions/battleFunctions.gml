@@ -11,6 +11,25 @@ function newEncounter(_enemies, _bg){
 			enemies: _enemies, creator: id, battleBackground: _bg
 		}
 	)
+}
+function BattleChangeHP(_target, _amount, _AliveDeadOrEither = 0)
+{
+	var _failed = false
+	if (_AliveDeadOrEither == 0) && (_target.hp <= 0) _failed = true
+	if (_AliveDeadOrEither == 1) && (_target.hp > 0) _failed = true
 	
-
+	var _col = c_white
+	if (_amount > 0) _col = c_lime
+	if (_failed)
+	{
+		_col = c_white
+		_amount = "failed";
+	}
+	instance_create_depth(
+		_target.x,
+		_target.y,
+		_target.depth - 1,
+		oBattleFloatingText,
+		{}
+	)
 }

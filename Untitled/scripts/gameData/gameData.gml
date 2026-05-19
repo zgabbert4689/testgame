@@ -33,7 +33,7 @@ global.party =
 		mp: 8,
 		mpMax: 8,
 		strength: 7,
-		sprites: { idle: sPlaceholder3 },
+		sprites: { idle: sPlaceholder3, attacks: sPlaceholder3atk },
 		actions: []
 	}
 	,
@@ -44,7 +44,7 @@ global.party =
 		mp: 15,
 		mpMax: 15,
 		strength: 4,
-		sprites: { idle: sPlaceholder4 },
+		sprites: { idle: sPlaceholder4, attacks: sPlaceholder4atk },
 		actions:[]
 	}
 ]
@@ -56,7 +56,7 @@ global.enemies =
 		hp: 25,
 		hpMax: 25,
 		strength: 5,
-		sprites: {idle: sPlaceholder2},
+		sprites: {idle: sPlaceholder2, attacks: sPlaceholder2atk},
 		actions: [],
 		AIscript : function(){
 		
@@ -69,7 +69,7 @@ global.enemies =
 		hp: 2,
 		hpMax: 2,
 		strength: 20,
-		sprites: {idle: sPlaceholder1},
+		sprites: {idle: sPlaceholder1, attacks: sPlaceholder1atk},
 		actions: [],
 		AIscript : function(){
 		
