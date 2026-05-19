@@ -23,7 +23,7 @@ draw_sprite_stretched(sDialogue,0,x - 8, y + 157,117,120)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 draw_set_color(c_gray)
- 
+draw_set_font(fMain) 
 
 draw_text_transformed(x+COLUMN_ENEMY, y + 180, "ENEMY",0.45,0.45,0)
 draw_text_transformed(x+COLUMN_NAME, y + 180, "NAME",0.45,0.45,0)

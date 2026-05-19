@@ -30,6 +30,9 @@ function BattleChangeHP(_target, _amount, _AliveDeadOrEither = 0)
 		_target.y,
 		_target.depth - 1,
 		oBattleFloatingText,
-		{}
-	)
+		{font: fMain, col: _col, text: string(_amount)}
+	);
+	if (!_failed) _target.hp = clamp(_target.hp + _amount, 0, _target.hpMax)
+	
+	
 }

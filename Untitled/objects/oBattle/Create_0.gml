@@ -17,7 +17,7 @@ currentTargets = noone;
 
 
 for (var i = 0; i < array_length(enemies); i++){
-	enemyUnits[i] = instance_create_depth(x + 325 + (i * 40), y + 35 + (i * 80), depth - 10, oBattleUnitEnemy, enemies[i]);
+	enemyUnits[i] = instance_create_depth(x + 400 + (i * 40), y + 35 + (i * 80), depth - 10, oBattleUnitEnemy, enemies[i]);
 	array_push(units, enemyUnits[i])
 }
 
@@ -50,7 +50,21 @@ function BattleStateSelectAction()
 		exit;
 	}
 	
-	BeginAction(_unit.id, global.actionLibrary.attack, _unit.id);
+	//BeginAction(_unit.id, global.actionLibrary.attack, _unit.id);
+	if (_unit.object_index == oBattleUnitPlayer){
+		var _action = global.actionLibrary.attack;
+			var _possibleTargets = array_filter(oBattle.enemyUnits, function(_unit, _index)
+			{
+				return (_unit.hp > 0)
+			})
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)]
+			BeginAction(_unit.id, _action, _target)
+	}else{
+		var _enemyAction = _unit.AIscript();
+		if (_enemyAction != -1) {
+			BeginAction(_unit.id, _enemyAction[0], _enemyAction[1]);
+		}
+	}
 }
 
 function BeginAction(_user, _action, _targets)

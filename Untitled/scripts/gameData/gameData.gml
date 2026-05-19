@@ -19,7 +19,7 @@ global.actionLibrary =
 		func: function(_user, _targets)
 		{
 			var _damage = ceil(_user.strength + random_range(-_user.strength * 0.25, _user.strength * 0.25));
-			with (_targets[0]) hp = max(0, hp - _damage);
+			BattleChangeHP(_targets[0], -_damage, 0)
 		}
 	}
 }
@@ -33,7 +33,7 @@ global.party =
 		mp: 8,
 		mpMax: 8,
 		strength: 7,
-		sprites: { idle: sPlaceholder3, attacks: sPlaceholder3atk },
+		sprites: { idle: sPlaceholder3, attacks: sPlaceholder3atk, down: sDownplaceholder },
 		actions: []
 	}
 	,
@@ -44,7 +44,7 @@ global.party =
 		mp: 15,
 		mpMax: 15,
 		strength: 4,
-		sprites: { idle: sPlaceholder4, attacks: sPlaceholder4atk },
+		sprites: { idle: sPlaceholder4, attacks: sPlaceholder4atk, down: sDownplaceholder },
 		actions:[]
 	}
 ]
@@ -57,9 +57,15 @@ global.enemies =
 		hpMax: 25,
 		strength: 5,
 		sprites: {idle: sPlaceholder2, attacks: sPlaceholder2atk},
-		actions: [],
+		actions: [global.actionLibrary.attack],
 		AIscript : function(){
-		
+			var _action = actions[0]
+			var _possibleTargets = array_filter(oBattle.partyUnits, function(_unit, _index)
+			{
+				return (_unit.hp > 0)
+			})
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)]
+			return [_action, _target]
 		}
 	}
 	,
@@ -70,9 +76,15 @@ global.enemies =
 		hpMax: 2,
 		strength: 20,
 		sprites: {idle: sPlaceholder1, attacks: sPlaceholder1atk},
-		actions: [],
+		actions: [global.actionLibrary.attack],
 		AIscript : function(){
-		
+			var _action = actions[0]
+			var _possibleTargets = array_filter(oBattle.partyUnits, function(_unit, _index)
+			{
+				return (_unit.hp > 0)
+			})
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)]
+			return [_action, _target]
 		}
 	}
 }
