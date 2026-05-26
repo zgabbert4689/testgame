@@ -4,7 +4,7 @@ draw_set_font(fMain)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
-var _desc = description != -1
+var _desc = !(description == -1)
 var _scrollPush = max(0, hover - (visibleOptionsMax-1))
 for (i = 0; i < (visibleOptionsMax + _desc); i++)
 {
@@ -16,7 +16,7 @@ for (i = 0; i < (visibleOptionsMax + _desc); i++)
 	}
 	else
 	{
-		var _optionToShow = 1 - _desc + _scrollPush
+		var _optionToShow = i - _desc + _scrollPush
 		var _str = options[_optionToShow][0]
 		if (hover == _optionToShow - _desc)
 		{

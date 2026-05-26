@@ -30,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sBillionsMustWarhammer",
+    "path": "sprites/sBillionsMustWarhammer/sBillionsMustWarhammer.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

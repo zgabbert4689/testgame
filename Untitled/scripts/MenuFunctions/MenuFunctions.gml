@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Menu(_x, _y, _options, _description = -1, _width = undefined, _height = undefined){
-	with (instance_create_depth(_x,_y,-99999,oMenu))
+	with (instance_create_depth(_x,_y,-9999,oMenu))
 	{
 		options = _options
 		description = _description
@@ -23,11 +23,11 @@ function Menu(_x, _y, _options, _description = -1, _width = undefined, _height =
 		} else widthFull = _width
 		if (_height == undefined)
 		{
-			height = heightLine * (_optionsCount + (description != -1))
+			height = heightLine * (_optionsCount + !(description == -1))
 			heightFull = height + ymargin * 2;
 		} else {
 			heightFull = _height
-			if (heightLine * (_optionsCount + (description != 1)) > _height - (ymargin*2))
+			if (heightLine * (_optionsCount + !(description == 1)) > _height - (ymargin*2))
 			{
 				scrolling = true
 				visibleOptionsMax = (_height - ymargin * 2) div heightLine;

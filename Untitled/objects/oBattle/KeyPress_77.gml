@@ -1,4 +1,4 @@
-Menu(x+10,y+10,
+Menu(10,30,
 [
 	["test1", -1, -1, true],
 	["subtest", SubMenu,
@@ -11,5 +11,5 @@ Menu(x+10,y+10,
 	["test2", -1, -1, true]
 ]);
 
-
+show_debug_message("registered")
 

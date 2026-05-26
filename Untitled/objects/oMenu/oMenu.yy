@@ -29,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPlaceholder4atk",
+    "path": "sprites/sPlaceholder4atk/sPlaceholder4atk.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
