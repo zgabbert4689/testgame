@@ -6,6 +6,7 @@ if (active)
 	
 	if (keyboard_check_pressed(vk_enter))
 	{
+		show_debug_message("s")
 		if (array_length(options[hover]) > 1) && (options[hover][3] == true)
 		{
 			if (options[hover][1] != -1)

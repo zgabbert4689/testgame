@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Menu(_x, _y, _options, _description = -1, _width = undefined, _height = undefined){
-	with (instance_create_depth(_x,_y,-9999,oMenu))
+	with (instance_create_depth(_x,_y,-9999,oMenu2))
 	{
 		options = _options
 		description = _description

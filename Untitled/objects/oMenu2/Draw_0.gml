@@ -1,3 +1,7 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+//draw_self();
 draw_sprite_stretched(sDialogue, 0, x, y, widthFull, heightFull)
 draw_set_color(c_white)
 draw_set_font(fMain)

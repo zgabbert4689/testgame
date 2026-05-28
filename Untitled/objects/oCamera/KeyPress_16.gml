@@ -1,7 +1,7 @@
+/// @description Insert description here
+// You can write your code in this editor
 
-
-Menu(10,30,
-[
+Menu(x,y,[
 	["test1", -1, -1, true],
 	["subtest", SubMenu,
 		[[
@@ -11,7 +11,6 @@ Menu(10,30,
 		true
 	],
 	["test2", -1, -1, true]
-]);
+])
 
-show_debug_message("registered")
 
