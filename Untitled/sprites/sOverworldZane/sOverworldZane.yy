@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "sOverworldZane",
   "bbox_bottom": 127,
-  "bbox_left": 29,
+  "bbox_left": 31,
   "bbox_right": 96,
-  "bbox_top": 9,
+  "bbox_top": 10,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,8 +14,6 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71515b9c-7633-4a85-8941-f22cfbe5aaab",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11f3939c-bf2f-422d-a371-1eb87fa18e8a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87b72bdb-0eb9-4424-bd40-1d89ae92ea14",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -45,7 +43,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 3.0,
+    "length": 1.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -57,8 +55,6 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"71515b9c-7633-4a85-8941-f22cfbe5aaab","path":"sprites/sOverworldZane/sOverworldZane.yy",},},},"Disabled":false,"id":"3503632d-5277-4d63-9913-4a3200e2b82f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"11f3939c-bf2f-422d-a371-1eb87fa18e8a","path":"sprites/sOverworldZane/sOverworldZane.yy",},},},"Disabled":false,"id":"050004c7-d414-4a10-81ff-25058647233b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"87b72bdb-0eb9-4424-bd40-1d89ae92ea14","path":"sprites/sOverworldZane/sOverworldZane.yy",},},},"Disabled":false,"id":"1f842c56-3eaa-42d8-987b-cc0ca6e443c0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
