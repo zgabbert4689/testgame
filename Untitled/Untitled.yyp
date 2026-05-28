@@ -65,7 +65,7 @@
     {"id":{"name":"sPlaceholder3","path":"sprites/sPlaceholder3/sPlaceholder3.yy",},},
     {"id":{"name":"sOverworldTemplate","path":"sprites/sOverworldTemplate/sOverworldTemplate.yy",},},
     {"id":{"name":"sBattleBg","path":"sprites/sBattleBg/sBattleBg.yy",},},
-    {"id":{"name":"sOverworldTemplate13","path":"sprites/sOverworldTemplate13/sOverworldTemplate13.yy",},},
+    {"id":{"name":"sOverworldRoen","path":"sprites/sOverworldRoen/sOverworldRoen.yy",},},
     {"id":{"name":"sRoenBattleTemp","path":"sprites/sRoenBattleTemp/sRoenBattleTemp.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

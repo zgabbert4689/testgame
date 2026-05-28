@@ -46,7 +46,7 @@
     {"name":"sPlaceholder3","order":4,"path":"sprites/sPlaceholder3/sPlaceholder3.yy",},
     {"name":"sOverworldTemplate","order":9,"path":"sprites/sOverworldTemplate/sOverworldTemplate.yy",},
     {"name":"sBattleBg","order":6,"path":"sprites/sBattleBg/sBattleBg.yy",},
-    {"name":"sOverworldTemplate13","order":13,"path":"sprites/sOverworldTemplate13/sOverworldTemplate13.yy",},
+    {"name":"sOverworldRoen","order":13,"path":"sprites/sOverworldRoen/sOverworldRoen.yy",},
     {"name":"sRoenBattleTemp","order":15,"path":"sprites/sRoenBattleTemp/sRoenBattleTemp.yy",},
   ],
 }
