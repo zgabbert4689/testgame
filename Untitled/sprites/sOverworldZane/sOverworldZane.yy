@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sOverworldZane",
-  "bbox_bottom": 127,
+  "bbox_bottom": 123,
   "bbox_left": 31,
   "bbox_right": 96,
-  "bbox_top": 10,
+  "bbox_top": 6,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "sPlayerOverworld",
+    "path": "folders/Sprites/sPlayerOverworld.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

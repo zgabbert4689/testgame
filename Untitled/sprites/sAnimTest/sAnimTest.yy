@@ -70,8 +70,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Untitled",
-    "path": "Untitled.yyp",
+    "name": "sPlayerBattle",
+    "path": "folders/Sprites/sPlayerBattle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

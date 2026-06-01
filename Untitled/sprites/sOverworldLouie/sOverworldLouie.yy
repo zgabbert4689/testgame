@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sOverworldRoen",
-  "bbox_bottom": 124,
-  "bbox_left": 31,
-  "bbox_right": 96,
-  "bbox_top": 7,
+  "name": "sOverworldLouie",
+  "bbox_bottom": 125,
+  "bbox_left": 35,
+  "bbox_right": 92,
+  "bbox_top": 11,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"588e6dbb-7f20-4caa-b666-a28e053c0552",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4d2d1c5-efeb-4d33-9655-8d9113fc532f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2e7311bd-9031-45d0-b02d-9933fa6261dc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a16e2ac4-575a-4515-a965-dcd0c91675ba","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sOverworldRoen",
+    "name": "sOverworldLouie",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"588e6dbb-7f20-4caa-b666-a28e053c0552","path":"sprites/sOverworldRoen/sOverworldRoen.yy",},},},"Disabled":false,"id":"fdc31abc-64ae-429f-a6de-c6058e9b9961","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e4d2d1c5-efeb-4d33-9655-8d9113fc532f","path":"sprites/sOverworldLouie/sOverworldLouie.yy",},},},"Disabled":false,"id":"0d421441-3dc6-4652-af90-bc6ab37fff59","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

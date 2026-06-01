@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sOverworldRhett",
-  "bbox_bottom": 30,
-  "bbox_left": 8,
-  "bbox_right": 23,
-  "bbox_top": 3,
+  "bbox_bottom": 124,
+  "bbox_left": 31,
+  "bbox_right": 96,
+  "bbox_top": 7,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 128,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3542fd98-4c74-4dd7-9141-344a46d736d3","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "sPlayerOverworld",
+    "path": "folders/Sprites/sPlayerOverworld.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -71,5 +71,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 128,
 }
