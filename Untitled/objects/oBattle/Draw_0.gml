@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 draw_sprite(sBattleBg,0,x,y)
 
 var unitWithCurrentTurn = unitTurnOrder[turn].id;
@@ -12,8 +11,8 @@ for (var i = 0; i < array_length(unitRenderOrder); i++)
 	}
 }
 
-draw_sprite_stretched(sDialogue,0,x + 90, y + 157,385,120)
-draw_sprite_stretched(sDialogue,0,x - 8, y + 157,117,120)
+draw_sprite_stretched(sDialogue,0,x + 115, y + 157,340,110)
+draw_sprite_stretched(sDialogue,0,x + 20, y + 157,90,110)
 
 #macro COLUMN_ENEMY 33
 #macro COLUMN_NAME 130

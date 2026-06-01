@@ -1,6 +1,6 @@
 
 
-Menu(10,30,
+Menu(x + 10,y + 10,
 [
 	["test1", -1, -1, true],
 	["subtest", SubMenu,

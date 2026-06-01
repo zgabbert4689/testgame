@@ -14,6 +14,7 @@ battleWaitTimeRemaining = 0;
 currentUser = noone;
 currentAction = -1;
 currentTargets = noone;
+over = true;
 
 
 for (var i = 0; i < array_length(enemies); i++){
@@ -134,7 +135,29 @@ function BattleStatePerformAction()
 
 function BattleStateVictoryCheck()
 {
-	battleState = BattleStateTurnProgression
+	over = true;
+	for (i = 0; i < array_length(enemyUnits); i++;){
+		if (enemyUnits[i].hp > 0){
+			over = false
+		}
+		show_debug_message(over)
+	}
+
+	if (over){
+		instance_create_depth(x,y,-999999,oBattleEnder)
+	} 
+	for (i = 0; i < array_length(partyUnits); i++;){
+		if (partyUnits[i].hp > 0){
+			over = false
+		}
+		show_debug_message(over)
+	}
+	if (over){
+		instance_create_depth(x,y,-999999,oBattleEnder)
+	} 
+	else {
+		battleState = BattleStateTurnProgression
+	}
 }
 
 function BattleStateTurnProgression()

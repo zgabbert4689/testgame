@@ -4,7 +4,7 @@
 //draw_self();
 draw_sprite_stretched(sDialogue, 0, x, y, widthFull, heightFull)
 draw_set_color(c_white)
-draw_set_font(fMain)
+draw_set_font(fMainSmaller)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
@@ -16,7 +16,7 @@ for (i = 0; i < (visibleOptionsMax + _desc); i++)
 	draw_set_color(c_white)
 	if (i == 0) && (_desc)
 	{
-		draw_text(x + xmargin, y + ymargin, description)
+		draw_text_transformed(x + xmargin, y + ymargin, description,0.75,0.75,0)
 	}
 	else
 	{
@@ -27,7 +27,7 @@ for (i = 0; i < (visibleOptionsMax + _desc); i++)
 			draw_set_color(c_yellow)
 		}
 		if (options[_optionToShow][3] == false) draw_set_color(c_gray)
-		draw_text(x + xmargin, y + ymargin + i * heightLine, _str)
+		draw_text_transformed(x + xmargin, y + ymargin + i * heightLine, _str,0.75,0.75,0)
 		
 	}
 }
