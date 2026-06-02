@@ -136,6 +136,8 @@ function BattleStatePerformAction()
 function BattleStateVictoryCheck()
 {
 	over = true;
+	
+	//enemy death check
 	for (i = 0; i < array_length(enemyUnits); i++;){
 		if (enemyUnits[i].hp > 0){
 			over = false
@@ -146,12 +148,17 @@ function BattleStateVictoryCheck()
 	if (over){
 		instance_create_depth(x,y,-999999,oBattleEnder)
 	} 
+	
+	over = true;
+	
+	//player death check
 	for (i = 0; i < array_length(partyUnits); i++;){
 		if (partyUnits[i].hp > 0){
 			over = false
 		}
 		show_debug_message(over)
 	}
+	
 	if (over){
 		instance_create_depth(x,y,-999999,oBattleEnder)
 	} 
