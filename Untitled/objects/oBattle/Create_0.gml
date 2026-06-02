@@ -18,12 +18,12 @@ over = true;
 
 
 for (var i = 0; i < array_length(enemies); i++){
-	enemyUnits[i] = instance_create_depth(x + 400 + (i * 40), y + 35 + (i * 80), depth - 10, oBattleUnitEnemy, enemies[i]);
+	enemyUnits[i] = instance_create_depth(x + 400 + (i * 40), y + 15 + (i * 80), depth - 10, oBattleUnitEnemy, enemies[i]);
 	array_push(units, enemyUnits[i])
 }
 
 for (var i = 0; i < array_length(global.party); i++){
-	partyUnits[i] = instance_create_depth(x + 30 + (i * 40), y + 35 + (i * 80), depth - 10, oBattleUnitPlayer, global.party[i]);
+	partyUnits[i] = instance_create_depth(x + 30 + (i * 40), y + 15 + (i * 80), depth - 10, oBattleUnitPlayer, global.party[i]);
 	array_push(units, partyUnits[i])
 }
 

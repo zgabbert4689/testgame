@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "sBattleStuff",
-    "path": "folders/Sprites/sBattleStuff.yy",
+    "name": "sGUI",
+    "path": "folders/Sprites/sGUI.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

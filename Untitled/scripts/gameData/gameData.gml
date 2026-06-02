@@ -33,7 +33,7 @@ global.party =
 		mp: 8,
 		mpMax: 8,
 		strength: 7,
-		sprites: { idle: sPlaceholder3, attacks: sPlaceholder3atk, down: sDownplaceholder },
+		sprites: { idle: sRoenBattleTemp, attacks: sRoenBattleTemp, down: sDownplaceholder },
 		actions: []
 	}
 	,
@@ -44,7 +44,7 @@ global.party =
 		mp: 15,
 		mpMax: 15,
 		strength: 4,
-		sprites: { idle: sPlaceholder4, attacks: sPlaceholder4atk, down: sDownplaceholder },
+		sprites: { idle: sBattleTemplate, attacks: sBattleTemplate, down: sDownplaceholder },
 		actions:[]
 	}
 ]
@@ -56,7 +56,7 @@ global.enemies =
 		hp: 25,
 		hpMax: 25,
 		strength: 5,
-		sprites: {idle: sPlaceholder2, attacks: sPlaceholder2atk},
+		sprites: {idle: sOfficer01, attacks: sOfficer01},
 		actions: [global.actionLibrary.attack],
 		AIscript : function(){
 			var _action = actions[0]

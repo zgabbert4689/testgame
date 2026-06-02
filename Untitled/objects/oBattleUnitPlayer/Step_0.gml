@@ -4,6 +4,8 @@ event_inherited()
 if (hp <= 0)
 {
 	sprite_index = sprites.down;
+	image_xscale = 1
+	image_yscale = 1
 } else
 {
 	if (sprite_index == sprites.down){
