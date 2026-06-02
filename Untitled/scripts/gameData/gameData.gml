@@ -87,4 +87,23 @@ global.enemies =
 			return [_action, _target]
 		}
 	}
+	,
+	losegameinator:
+	{
+		name: "death",
+		hp: 1000,
+		hpMax: 1000,
+		strength: 1000,
+		sprites: {idle: sPlaceholder1, attacks: sPlaceholder1atk},
+		actions: [global.actionLibrary.attack],
+		AIscript : function(){
+			var _action = actions[0]
+			var _possibleTargets = array_filter(oBattle.partyUnits, function(_unit, _index)
+			{
+				return (_unit.hp > 0)
+			})
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)]
+			return [_action, _target]
+		}
+	}
 }
