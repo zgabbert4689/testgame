@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlaceholder1",
-    "path": "sprites/sPlaceholder1/sPlaceholder1.yy",
+    "name": "sOverworldRoen",
+    "path": "sprites/sOverworldRoen/sOverworldRoen.yy",
   },
   "spriteMaskId": null,
   "visible": true,
