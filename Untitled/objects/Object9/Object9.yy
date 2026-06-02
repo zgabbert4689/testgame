@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sBattleTemplate",
-    "path": "sprites/sBattleTemplate/sBattleTemplate.yy",
+    "name": "sZaneBattle",
+    "path": "sprites/sZaneBattle/sZaneBattle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
